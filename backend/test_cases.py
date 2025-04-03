@@ -4,7 +4,7 @@ import json
 import networkx as nx
 from shapely.geometry import Polygon, LineString, Point
 import geopandas as gpd
-from testing import (
+from backend.solver import (
     generate_small_boxes,
     in_bbox,
     assign_features_to_boxes,

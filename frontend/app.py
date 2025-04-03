@@ -11,7 +11,7 @@ import json
 import branca.colormap as cm
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from backend.testing import solve, parse_votes_str  
+from backend.solver import solve, parse_votes_str  
 
 BASEMAPS = ['Satellite', 'Roadmap', 'Terrain', 'Hybrid', 'OpenStreetMap']
 
