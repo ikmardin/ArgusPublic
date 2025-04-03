@@ -1,0 +1,12 @@
+osmnx
+geopy
+shapely
+geopandas
+openai
+matplotlib
+contextily
+networkx
+streamlit
+folium
+streamlit-folium
+leafmap

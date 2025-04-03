@@ -1,0 +1,42 @@
+[
+    {
+        "coordinates": "37.533, 47.115",  
+        "description": "Active enemy radar installation with constant surveillance. Multiple radar domes and anti-air defenses present. Site is heavily guarded with constant patrols and security measures. Long-range surveillance capabilities extend beyond 300km."
+    },
+    {
+        "coordinates": "37.520324, 47.113851",  
+        "description": "Dense minefield covering approximately 0.5 square kilometers. Contains both anti-tank (60%) and anti-personnel (40%) mines. Recently laid with no signs of degradation. Concentrated along the main route with scattered deployment pattern."
+    },
+    {
+        "coordinates": "37.515015, 47.113348",  
+        "description": "Heavy enemy presence with multiple sniper teams and machine gun emplacements. RPG teams observed with recent successful strikes against armored vehicles. Regular artillery support available to enemy forces."
+    },
+    {
+        "coordinates": "37.532, 47.116",  
+        "description": "Major road damage with three large craters (10m diameter each). Road bed is structurally compromised with risk of further collapse. Recent artillery strikes suggest active targeting of this route."
+    },
+    {
+        "coordinates": "37.535, 47.117",  
+        "description": "Fortified enemy compound with surveillance towers and defensive walls. Multiple buildings suggest significant troop presence. Regular patrol activity observed with quick reaction force capability."
+    },
+    {
+        "coordinates": "37.536, 47.115",  
+        "description": "Clear, open terrain with excellent visibility and a well-maintained road. No enemy presence detected. Ideal for rapid troop movement and logistical support."
+    },
+    {
+        "coordinates": "37.532, 47.113",  
+        "description": "Expansive farmland with gentle rolling hills providing natural cover. The area is largely free of obstructions and enemy activity, offering strategic advantage for friendly forces."
+    },
+    {
+        "coordinates": "37.529, 47.116",  
+        "description": "Presence of a small river and associated water crossings. While the terrain is generally clear, the water obstacle may slow down movement and require temporary bridges, increasing vulnerability."
+    },
+    {
+        "coordinates": "37.537, 47.114",  
+        "description": "Mixed terrain with an open field interspersed with patches of shrub cover. Sporadic enemy patrols have been reported in the area, creating intermittent risk for troop movement."
+    },
+    {
+        "coordinates": "37.534, 47.117",  
+        "description": "Urban fringe area with several derelict buildings and scattered debris. The environment poses potential ambush risks and unexpected hazards, making it less ideal for safe passage."
+    }
+]
