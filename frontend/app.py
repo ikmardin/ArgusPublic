@@ -80,7 +80,6 @@ if all([start_lat, start_lon, end_lat, end_lon]):
         folium.PolyLine(naive_path, color='blue', weight=3, opacity=0.8, popup='Shortest Path').add_to(m)
         folium.PolyLine(informed_path, color='red', weight=3, opacity=0.8, popup='Tactical Path').add_to(m)
         
-        # --- NEW: Add danger shading for each bounding box ---
         # Attempt to extract vote distribution (if available)
         votes_str = ""  # Replace with your actual GPT output (JSON string)
         votes_dict = parse_votes_str(votes_str)
