@@ -1,6 +1,6 @@
 # ArgusPublic
 
-![Argus Map Interface](./PNG image.png)
+![Argus Map Interface](./PNG%20image.png)
 
 GEOINT tool for route optimization
 
