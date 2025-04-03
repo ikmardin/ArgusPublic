@@ -80,9 +80,10 @@ if all([start_lat, start_lon, end_lat, end_lon]):
         folium.PolyLine(naive_path, color='blue', weight=3, opacity=0.8, popup='Shortest Path').add_to(m)
         folium.PolyLine(informed_path, color='red', weight=3, opacity=0.8, popup='Tactical Path').add_to(m)
         
-        # Attempt to extract vote distribution (if available)
-        votes_str = ""  # Replace with your actual GPT output (JSON string)
-        votes_dict = parse_votes_str(votes_str)
+        votes_dict = {}
+        for bbox_info in result["bbox_info"]:
+            bbox = tuple(bbox_info["bounds"])
+            votes_dict[bbox] = bbox_info["weight"]
 
         # Determine min and max vote values for the color scale
         vote_values = list(votes_dict.values())
