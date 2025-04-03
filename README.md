@@ -5,6 +5,8 @@ Takes in coordinate-stamped imagery, picks out key features and compiles into st
 
 Plots optimal route from points A to B within a defined area based on these features and a commander's intent
 
+Generates both this path (in red) and the naive shortest distance path (in blue) to illustrate difference
+
 # Setup
 Enter file paths for provided imagery, corresponding coordinate stamps, and output file. 
 Format of coordinates file is:
