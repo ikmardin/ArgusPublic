@@ -10,3 +10,4 @@ streamlit
 folium
 streamlit-folium
 leafmap
+scikit-learn
