@@ -13,14 +13,14 @@ Format of coordinates file is:
 }
 
     e.g.
-    "
+    
     {
 
     "Sattelite_Sample1.jpg": "37.533, 47.115",
     "Drone_Sample1.jpg": "37.515015, 47.113348"
 
     }
-    "
+    
 
 
 For the purpose of demonstration, a sample output file has been provided in formattedData/data.json 
