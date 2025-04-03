@@ -83,20 +83,13 @@ if all([start_lat, start_lon, end_lat, end_lon]):
         # Attempt to extract vote distribution (if available)
         votes_str = ""  # Replace with your actual GPT output (JSON string)
         votes_dict = parse_votes_str(votes_str)
-        
-        # For demonstration, if votes_dict is empty, set some dummy values.
-        if not votes_dict:
-            votes_dict = {}
-            for bbox in result["bbox_info"]:
-                # Dummy vote value for demonstration; replace with actual logic.
-                votes_dict[tuple(bbox["bounds"])] = 1000
 
         # Determine min and max vote values for the color scale
         vote_values = list(votes_dict.values())
         min_vote = min(vote_values)
         max_vote = max(vote_values)
         
-        # Create a reversed colormap manually (since .reversed() is not available)
+        # Create a reversed colormap 
         colormap = cm.LinearColormap(
             colors=cm.linear.RdYlGn_09.colors[::-1],
             index=cm.linear.RdYlGn_09.index[::-1],
@@ -124,7 +117,6 @@ if all([start_lat, start_lon, end_lat, end_lon]):
                 tooltip=f"Description: {bbox_info['weight']}, {bbox_info['summary']}"
             ).add_to(m)
         
-        # Optionally, add the colormap legend to the map
         colormap.caption = "Danger Level (lower votes = more dangerous)"
         colormap.add_to(m)
         
