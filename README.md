@@ -25,4 +25,4 @@ Individual sample images have also been provided via Google Maps
 pip install -r requirements.txt
 
 # Running
-streamlit frontend/app.py 
+streamlit run frontend/app.py 
